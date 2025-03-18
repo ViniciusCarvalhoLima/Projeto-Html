@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
     background-color: white;
     color: #3a3f3f;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -67,10 +67,10 @@ a {
 
 .Link__botao {
     background-color: black;
-    width: 250px;
+    width: 20%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 10.5px 0;
     text-decoration: none;
     color: white;
@@ -91,17 +91,63 @@ a {
 
 .cabecalho_menu {
     position: relative;
-    /* O elemento pai precisa ter position: relative */
     width: 100%;
 }
 
 .cabecalho__menu__link {
     position: absolute;
     top: 10px;
-    /* Reduza para posicionar corretamente no topo */
     right: 10px;
-    /* Garante que está no canto superior direito */
     color: #000000;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
+}
+
+.BodySBMIM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 1200px;
+    height: 60vh;
+
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.BodySBMIM h1 {
+    margin-top: 30px;
+}
+
+.BodySBMIM p {
+    font-size: 1.2rem;
+}
+
+.MainSBMIM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 1200px;
+    height: 250vh;
+
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.MainSBMIM h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.MainSBMIM p {
+    line-height: 1.6;
+    font-size: 1.2rem;
 }
